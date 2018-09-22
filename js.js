@@ -1,3 +1,5 @@
-$("a").click(function(){
-    alert("hello man i am jQuery method click");
+$(function (){
+    $("a").click(function(){
+        alert("hello man i am jQuery method click");
+    });
 });
