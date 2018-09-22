@@ -11,8 +11,12 @@ $(function (){
     //     alert("hello i am a $ method blur");
     // });
 
-    $(window).keydown(function(event){
-        console.log(event.keyCode);
-    });
+    $("div").hover(onIn, onOut);
 
+    function onIn(){
+        $("div").html("IN");
+    }
+    function onOut(){
+        $("div").html("OUT");
+    }
 });
