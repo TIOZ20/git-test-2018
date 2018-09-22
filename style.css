@@ -1,37 +1,7 @@
-body{
-    background: pink;
-}
-
 div{
-    margin: 0 auto;
-    background: red;
-    color: lime;
-    height: 100px;
-    width: 100px;
     text-align: center;
-    font-size: 20px;
-    line-height: 100px;
-}
-
-
-h1{
-    font-size: 130px;
-    color: black;
-    text-align: center;
-    margin-top: 100px;
-    text-transform: uppercase;
-}
-a{
-    display: block;
-    text-align: center;
-    font-size: 130px;
-    text-decoration: none;
-    color: white;
+    font-size: 60px;
+    color: red;
     background: grey;
-}
-
-a:hover{
-    color: black;
-    transform: scale(1.1);
-    transition: all 1000ms ease;
+    margin: 20px;
 }
